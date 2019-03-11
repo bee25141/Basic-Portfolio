@@ -12,28 +12,55 @@ p {
     border-color: #b1c6e2;
 }
 
-h3 {
-    color: #b8a8a8;
-    margin: 0;
-    float: right;
-    clear: both;
-}
-
 #name {
     background-color: #4aaaa5;
     color: #fffffe;
     text-align: center;
-    margin: 0;
+    margin-left: 200px;
     width: 200px;
-    height: 100px;
+    height: 50px;
+    padding: 20px;
+}
+
+h3 {
+    color: #b8a8a8;
+    _display: inline-block;
+    _float: right;
+    margin-top: 0px;
+    _margin-right: 75px;
+    padding: 10px;
+}
+
+#about{
+    position: absolute;
+    top: 0;
+    right: 400px;
+}
+
+#portfolio{
+    position: absolute;
+    top: 0;
+    right: 300px;
+}
+
+#contact{
+    position: absolute;
+    top: 0;
+    right: 200px;
+}
+
+#seperate{
+    clear: both;
+    background-color: #000;
+    height: 3px;
 }
 
 #contentbackground {
     background-color: #e7e7e7;
     background-color: #eeeeee;
     background-color: #ececec;
-    height: 700px;
-    width: 700px;
+    height: 100px;
+    width: 300px;
 }
 
 #heading {
@@ -42,24 +69,34 @@ h3 {
 }
 
 #content {
-    height: 500px;
-    _width: 500px;
+    height: 300x;
+    width: 960px;
     background-color: #eeeeee;
     position: absolute;
     text-align: center;
-    top: 50%;
-    bottom: 50%;
+    _top: 50%;
+    _bottom: 50%;
+    _left:50%;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 #lowerbreakline {
     background-color: #4aaaa5;
-    height: 20px;
-    _position: absolute;
+    padding: 10px;
+    height: 5px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 50px;
 }
 
 #footer {
     background-color: #666666;
-    _position: absolute;
+    padding: 20px;
+    position: fixed;
     bottom: 0;
-    height: 100px;
+    right: 0;
+    left: 0;
+    height: 25px;
 }
