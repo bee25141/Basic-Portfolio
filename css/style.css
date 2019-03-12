@@ -5,16 +5,19 @@ body {
 a {
     color: #b8a8a8;
     border-color: #b1c6e2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
     color: #a1afbc;
     border-color: #b1c6e2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #name {
     background-color: #4aaaa5;
     color: #fffffe;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin-left: 200px;
     width: 200px;
@@ -26,6 +29,7 @@ h3 {
     color: #b8a8a8;
     _display: inline-block;
     _float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 0px;
     _margin-right: 75px;
     padding: 10px;
@@ -56,27 +60,38 @@ h3 {
 }
 
 #contentbackground {
-    background-color: #e7e7e7;
-    background-color: #eeeeee;
-    background-color: #ececec;
-    height: 100px;
-    width: 300px;
+    background-image: url(images/white-waves.png);
+    _background-color: #eeeeee;
+    _background-color: #ececec;
+    _box-sizing: border-box;
+    _height: 520px;
+    _width: 100%;
 }
 
 #heading {
     color: #4aaaa5;
+    padding: 20px;
+    text-align: left;
+}
 
+#contentbreak{
+    background-color: #000;
+    height: 20px;
+    width: 800px;
 }
 
 #content {
+    clear: both;
     height: 300x;
     width: 960px;
-    background-color: #eeeeee;
+    background-color: yellow;
     position: absolute;
     text-align: center;
+    box-sizing: border-box;
     _top: 50%;
     _bottom: 50%;
     _left:50%;
+    margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
 }
