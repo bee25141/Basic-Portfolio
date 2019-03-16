@@ -10,7 +10,7 @@ p{
     clear: both;
     height: 700px;
     width: 960px;
-    background-color: yellow;
+    background-color: #ffffff;
     position: absolute;
     box-sizing: border-box;
     margin-top: 20px;
@@ -42,3 +42,4 @@ button{
     background-size: cover;
     height: 700px;
     width: 100%;
+}
