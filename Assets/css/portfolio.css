@@ -1,16 +1,33 @@
 .portfoliocontainer{
     position: absolute;
     width: 960px;
-    height:1000px;
-    background-color: black
+    height:500px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+#content {
+    /* clear: both; */
+    height: 1000px;
+    width: 960px;
+    background-color: yellow;
+    position: absolute;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 .portfoliocontent{
     position: relative;
     background-color: aquamarine;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
+    /* margin: 4em; */
 }
 
 h4{
@@ -21,10 +38,36 @@ h4{
     width: 100%;
     padding: 1em, 0;
     font-size: 1em;
+    margin: 0;
 }
 
-.portfoliocontent h4{
-    position: absolute;
-    float: left;
-    _margin: 20px;
+#portfolio1{
+    /* position: absolute; */
+    /* float: left; */
+    margin: 3em;
+}
+
+#portfolio2{
+    /* position: absolute; */
+    /* clear: both; */
+    /* float: left; */
+    margin: 3em;
+}
+
+#portfolio3{
+    /* position: absolute; */
+    /* float: left; */
+    margin: 3em;
+}
+
+#portfolio4{
+    /* position: absolute; */
+    /* float: left; */
+    margin: 3em;
+}
+
+#portfolio5{
+    /* position: absolute; */
+    /* float: left; */
+    margin: 3em;
 }

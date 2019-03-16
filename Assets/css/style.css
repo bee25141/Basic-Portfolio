@@ -64,8 +64,9 @@ h3 {
 }
 
 .contentbackground {
-    background-image: url("..assets/images/white-waves.png");
-    height: 1000px;
+    background-image: url("../images/white-waves.png");
+    background-size: cover;
+    height: 800px;
     width: 100%;
 }
 
@@ -99,7 +100,7 @@ _h1, _p{
 
 #content {
     clear: both;
-    height: 1000x;
+    height: 500px;
     width: 960px;
     background-color: yellow;
     position: absolute;
