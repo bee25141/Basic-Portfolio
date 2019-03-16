@@ -1,0 +1,30 @@
+.portfoliocontainer{
+    position: absolute;
+    width: 960px;
+    height:1000px;
+    background-color: black
+
+}
+
+.portfoliocontent{
+    position: relative;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+
+h4{
+    position: relative;
+    bottom: 1em;
+    background-color: red;
+    text-align: center;
+    width: 100%;
+    padding: 1em, 0;
+    font-size: 1em;
+}
+
+.portfoliocontent h4{
+    position: absolute;
+    float: left;
+    _margin: 20px;
+}

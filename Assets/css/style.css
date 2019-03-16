@@ -37,35 +37,36 @@ h3 {
 
 #about{
     position: absolute;
+    text-decoration: none;
     top: 0;
     right: 400px;
+    text-decoration: none;
 }
 
 #portfolio{
     position: absolute;
     top: 0;
     right: 300px;
+    text-decoration: none;
 }
 
 #contact{
     position: absolute;
     top: 0;
     right: 200px;
+    text-decoration: none;
 }
 
 #seperate{
     clear: both;
-    background-color: #000;
+    background-color: #a1afbc;
     height: 3px;
 }
 
-#contentbackground {
-    background-image: url(images/white-waves.png);
-    _background-color: #eeeeee;
-    _background-color: #ececec;
-    _box-sizing: border-box;
-    _height: 520px;
-    _width: 100%;
+.contentbackground {
+    background-image: url("..assets/images/white-waves.png");
+    height: 1000px;
+    width: 100%;
 }
 
 #heading {
@@ -74,23 +75,35 @@ h3 {
     text-align: left;
 }
 
-#contentbreak{
-    background-color: #000;
-    height: 20px;
+.contentbreak{
+    background-color: #a1afbc;
+    height: 2px;
     width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#picture{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+_h1, _p{
+    color: blue;
+    padding: 10px;
 }
 
 #content {
     clear: both;
-    height: 300x;
+    height: 1000x;
     width: 960px;
     background-color: yellow;
     position: absolute;
-    text-align: center;
     box-sizing: border-box;
-    _top: 50%;
-    _bottom: 50%;
-    _left:50%;
     margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
@@ -108,6 +121,7 @@ h3 {
 
 #footer {
     background-color: #666666;
+    text-align: center;
     padding: 20px;
     position: fixed;
     bottom: 0;
