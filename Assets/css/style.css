@@ -70,7 +70,7 @@ h3 {
 .contentbackground {
     background-image: url("../images/white-waves.png");
     background-size: cover;
-    height: 800px;
+    height: 600px;
     width: 100%;
 }
 
@@ -95,11 +95,6 @@ h3 {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-}
-
-_h1, _p{
-    color: blue;
-    padding: 10px;
 }
 
 #content {
