@@ -16,7 +16,6 @@
 }
 
 #content {
-    /* clear: both; */
     height: 1200px;
     width: 960px;
     background-color: #ffffff;
@@ -25,8 +24,6 @@
     margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
-    /* display: flex;
-    flex-wrap: wrap; */
 }
 
 .portfoliocontent{
@@ -34,16 +31,15 @@
     background-color: aquamarine;
     height: 250px;
     width: 250px;
-    /* margin: 4em; */
 }
 
 h4{
     position: absolute;
     bottom: 1em;
     color: #ffffff;
-    border: black;
+    border: none;
     font-size: 5em;
-    background-color: rgba (100, 100, 200, .5);
+    background-color: rgba(21, 175, 149, 0.75);
     text-align: center;
     width: 100%;
     padding: 1em, 0;
@@ -52,41 +48,30 @@ h4{
 }
 
 #portfolio1{
-    /* position: absolute; */
-    /* float: left; */
     margin: 3em;
     background-image: url("../images/ipad-q-c-640-480-1.jpg");
     background-size: cover;
 }
 
 #portfolio2{
-    /* position: absolute; */
-    /* clear: both; */
-    /* float: left; */
     margin: 3em;
     background-image: url(../images/rpg.jpg);
     background-size: cover;
 }
 
 #portfolio3{
-    /* position: absolute; */
-    /* float: left; */
     margin: 3em;
     background-image: url(../images/trivia.jpg);
     background-size: cover;
 }
 
 #portfolio4{
-    /* position: absolute; */
-    /* float: left; */
     margin: 3em;
     background-image: url(../images/rutgers.jpeg);
     background-size: cover;
 }
 
 #portfolio5{
-    /* position: absolute; */
-    /* float: left; */
     margin: 3em;
     background-image: url(../images/rockpaperscissors.jpg);
     background-size: cover;
