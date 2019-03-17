@@ -9,7 +9,7 @@
 }
 
 .contentbackground {
-    background-image: url("../images/white-waves.png");
+    background-image: url("../images/whitewaves.png");
     background-size: cover;
     height: 1300px;
     width: 100%;
@@ -49,7 +49,7 @@ h4{
 
 #portfolio1{
     margin: 3em;
-    background-image: url("../images/ipad-q-c-640-480-1.jpg");
+    background-image: url("../images/ipad.jpg");
     background-size: cover;
 }
 
